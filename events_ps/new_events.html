@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+	<title>new_events</title>
+  </head>
+
+ 	 <body>
+	  	<div class="header-backgd">
+		</div>
+
+       <!-- menu botton -->
+     <!--   <div id="menu_button">
+				<div id="menu_left">
+					<ul>
+					    <li><a href="product.html">PRODUCTS</a></li>
+						<li><a href="history.html">HISTORY</a></li>
+					</ul>
+			    </div>
+
+			    <div id="logo_center">
+					<a href="index.html">
+					<img src="images/logo.png" width="180" height="180">
+					</a>
+			    </div>
+		   
+	            
+	            <div id="menu_right">
+					<ul>
+						<li><a href="new_events.html">NEWS/EVENTS</a></li>
+						<li><a href="about.html">ABOUT</a></li>	
+					</ul>
+			    </div>
+		
+		</div>-->
+
+	<div>
+		<h1 class="gallary">Event Gallary</h1>
+		
+		<div class="slideshow-container">
+
+			<div class="mySlides fade">
+  				<img src="images/IMG_20150214_135131120.JPG" style="width:100%">
+			</div>
+
+			<div class="mySlides fade">
+  				<img src="images/IMG_20150207_150944560_HDR.JPG" style="width:100%">
+			</div>
+
+			<div class="mySlides fade">
+  				<img src="images/IMG_20150912_122156181_HDR.JPG" style="width:100%">
+			</div>
+
+			<div class="mySlides fade">
+  				<img src="images/IMG_20150912_123734482_HDR.JPG" style="width:100%">
+			</div>
+
+			<div class="mySlides fade">
+  				<img src="images/DSC_0830.JPG" style="width:100%">
+			</div>
+
+			<div class="mySlides fade">
+  				<img src="images/20170202_125314.JPG" style="width:100%">
+			</div>
+
+			<div class="mySlides fade">
+  				<img src="images/21766647_10154651487291557_952055321110973121_n.JPG" style="width:100%">
+			</div>
+
+			<div class="mySlides fade">
+  				<img src="images/201801221643259372_33049.JPG" style="width:100%">
+			</div>
+
+			<div class="mySlides fade">
+  				<img src="images/mmexport1464238081150.JPG" style="width:100%">
+			</div>
+
+			<div class="mySlides fade">
+  				<img src="images/DSC_0041.JPG" style="width:100%">
+			</div>
+
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+		</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>  
+  <span class="dot" onclick="currentSlide(5)"></span> 
+  <span class="dot" onclick="currentSlide(6)"></span> 
+  <span class="dot" onclick="currentSlide(7)"></span> 
+  <span class="dot" onclick="currentSlide(8)"></span> 
+  <span class="dot" onclick="currentSlide(9)"></span> 
+  <span class="dot" onclick="currentSlide(10)"></span>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+		<h2 class="news_tx">News</h2>
+			<div class="media">
+			<dl>
+				<dt span style="font-size: 30px">Interview</dt>
+				<dd><a href="https://abc7news.com/food/chinese-treat-reserved-for-royalty-delights-sf-foodies/3126208/" target="_self">- https://abc7news.com/food/chinese-treat-reserved-for-royalty-delights-sf-foodies/3126208/"</a></dd>
+				<dd><a href="https://www.sfchronicle.com/food/article/Chinatown-s-Dragon-Papa-turns-candy-making-into-6540529.php" target="_self">- https://www.sfchronicle.com/food/article/Chinatown-s-Dragon-Papa-turns-candy-making-into-6540529.php"</a></dd>
+			</dl>
+
+				
+			<dl>
+				<dt span style="font-size: 30px">facebook</dt>
+				<dd><a href="https://www.facebook.com/pg/dragonpapadessert/reviews/?ref=page_internal target="_self">- https://www.facebook.com/pg/dragonpapadessert/reviews/?ref=page_internal</a></dd>
+			</dl>
+
+			<dl>
+				<dt span style="font-size: 30px">Yelp</dt>
+				<dd><a href="https://www.yelp.com/biz/dragon-papa-dessert-san-francisco target="_self">- https://www.yelp.com/biz/dragon-papa-dessert-san-francisco</a></dd>
+			</dl>
+
+		<h2 class="events_tx">Updates</h2>
+			<p class="tx">Upcoming events...</p>
+
+
+			</div>
+	</div>
+
+	 </body>
+</html>
