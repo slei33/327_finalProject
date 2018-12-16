@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+	<title>new_events</title>
+  </head>
+
+ 	 <body>
+	  	<div class="header-backgd">
+		</div>
+
+       <!-- menu botton -->
+        <div id="menu_button">
+				<div id="menu_left">
+					<ul>
+					    <li><a href="product.html">PRODUCTS</a></li>
+						<li><a href="history.html">HISTORY</a></li>
+					</ul>
+			    </div>
+
+			    <div id="logo_center">
+					<a href="index.html">
+					<img src="images/logo.png" width="180" height="180">
+					</a>
+			    </div>
+		   
+	            
+	            <div id="menu_right">
+					<ul>
+						<li><a href="new_events.html">NEWS/EVENTS</a></li>
+						<li><a href="about.html">ABOUT</a></li>	
+					</ul>
+			    </div>
+		</div>
+
+		<div>
+			<img class="about_pc" src="images/IMG_2642.jpg">
+		</div>
+
+		<div>
+			<h1 class="about_tx_1">Visit the store</h1>
+			<h2 class="about_tx_2">to see how the art is being made</h2>
+			<h3 class="about_tx_3">and try the  candy today!</h3>
+
+			<div class="media_video">
+				<video width="650" height="400" controls>
+  					<source src="media/_DSC0088_4.mp4" type="video/mp4">
+  						Your browser does not support the video tag.
+				</video>
+			</div>
+		</div>
+
+		<div>
+			<span class="about_one">Visit the store</span>
+			<span class="about_info">
+				<li>Phone :</li>
+				<br>
+				<li>(415)335-5364</li>
+				<br>
+				<address>
+				<br>
+				<li>Email :</li>
+				<br>
+				<a href="dragonpapadessert@aol.com">dragonpapadessert@aol.com</a>
+				</address>
+				<br>
+				<li>Location :</li>
+				<br>
+				<li><a href="https://www.google.com/maps/place/752+Grant+Ave,+San+Francisco,+CA+94108/@37.7941724,-122.4083698,17z/data=!3m1!4b1!4m5!3m4!1s0x8085808b42546b27:0x382995f9c56158ce!8m2!3d37.7941724!4d-122.4061811" target="_self">752 Grant Ave. San Francisco, CA 94601</a></li>
+				
+			</span>	
+		</div>
+
+		
+		<div id="googleMap" style="width:100%;height:400px;"></div>
+
+	<div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+          <option value="China">China</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+
+
+		
+    
+
+
+	 </body>
+</html>
